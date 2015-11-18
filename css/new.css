@@ -1,0 +1,25 @@
+section:nth-of-type(1) {
+    background-color:black;
+
+}
+
+.top-head {
+    z-index: 999;
+}
+
+.navbar {
+    height:100px;
+    width:100%;
+    background-color: white;
+    position: fixed;
+}
+
+@media screen and (max-width: 880px) {
+    
+    .hide {
+        width:100%;
+        left:0;
+        top:70px;
+    }
+
+}

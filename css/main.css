@@ -196,23 +196,24 @@ nav {
  	height: 0;
 	opacity: 0;
   box-sizing: border-box;
-	background: rgba(0, 47, 77, .25);
+
 	position: fixed;
-	top: 70px;
-	width: 100%;
-  -webkit-transition: all 3s;
-          transition: all 3s;
+    left:135px;
+    right:70px;
+  -webkit-transition: all .5s;
+          transition: all .5s;
+    background: transparent !important;
 }
 
 .open-menu ~ nav {
 	opacity: 1;
- 	padding: 80px 0;
+
 	z-index: 15;
 	height: calc(90vh - 70px);
 }
 
 nav ul {
-	padding: 0 10px;
+
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -227,12 +228,15 @@ nav li {
 }
 
 nav li a {
-	font-size: 2em;
+	font-size: 1em;
 	display: block;
-	padding: 30px;
+	padding: 25px;
 	text-align: center;
 	-webkit-transition: background .3s;
 	        transition: background .3s;
+    height:20px;
+    
+
 }
 
 nav li:nth-child(odd) a,
@@ -335,9 +339,7 @@ h3 {
     font-size: 50%;
   }
   
-  .open-menu ~ nav {
-		padding: 20px 0;
-	}
+
 
 	nav li a {
 		padding: 3px;
