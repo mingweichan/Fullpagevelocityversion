@@ -111,7 +111,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: white;
+	
 }
 
 ul, li {
@@ -141,7 +141,7 @@ h1 {
 
 h1 a {
 	display: block;
-	padding: 0 10px;
+
 }
 
 .toggle-menu {
@@ -229,11 +229,11 @@ nav li {
 nav li a {
 	font-size: 1em;
 	display: block;
-	padding: 25px;
+
 	text-align: center;
 	-webkit-transition: background .3s;
 	        transition: background .3s;
-    height:20px;
+
     
 
 }
@@ -324,9 +324,7 @@ h3 {
 		margin-top: 1px;
 	}
   
-  nav li a {
-    font-size: 1.5em;
-  }
+
   
   .scroll-icon {
     display: none;
@@ -340,15 +338,13 @@ h3 {
   
 
 
-	nav li a {
-		padding: 3px;
-	}
+
 }
 
 .l-left img {
     position:relative;
     height: 2em;
-    padding-top: .7em;
+    padding-top: .5em;
 }
 
 .form-inline {
@@ -358,7 +354,7 @@ h3 {
 .form-group {
     width: auto;
     margin: 0 auto;
-    
+
 }
 
 .container {
@@ -371,10 +367,16 @@ h3 {
 }
 
 .containerform {
-    margin-top: 100px;
-    margin-right: 10%;
+    margin-top: 80px;
+    bottom:0;
     margin-left: 10%;
     text-align: left;
+    padding-left: 100px;
+    padding-top: 50px;
+    
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.77);
+    
     
 }
 
@@ -382,9 +384,13 @@ h3 {
     margin-top: 100px;
 }
 
-#fh4 {
+.fh4 {
     font-size: 20px;
     text-transform: lowercase;
+    font-family: "Crimson Text", serif;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 

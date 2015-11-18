@@ -14,7 +14,7 @@ section:nth-of-type(1) {
 }
 
 #icon-how {
-    width: 20%;
+    width: 15%;
     padding-bottom: 30px;
 }
 .earn-points p {
@@ -50,8 +50,8 @@ h2 {
 }
 
 #topleftlogo {
-    margin-left: 11px;
-    margin-top: -3px;
+    margin-left: 10px;
+
 }
 
 .clicknext1 {
@@ -146,53 +146,6 @@ a {
     width: 10px;
 }
 
-@media screen and (max-width:1420px) {
-    .sale {
-        font-size: 20pt;
-        transform: translateY(-30%);
-    }
-    #icon-how {
-        width: 30%;
-    }
-}
-
-@media screen and (max-width:900px) {
-    .p-velocity {
-        margin-right: 100px;
-        margin-left: 100px;
-    }
-    #icon-how {
-        width: 40%;
-    }
-    .earn-points p {
-        transform: translateY(-40%)
-    }
-}
-@media screen and (max-width:700px) {
-    .p-velocity {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-}
-@media screen and (max-width:600px) {
-    .sale {
-        font-size: 12pt;
-    }
-    #icon-how {
-        width: 60%;
-    }
-    .earn-points p {
-        transform: translateY(-20%)
-    }
-    .earn-points h2 {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    .upgrade h2 {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-}
 
 body > .inner {
     display: none;
@@ -249,4 +202,154 @@ body.pg-loaded > .inner {
 
 .form-control {
     margin-bottom: 10px;
+}
+
+#icon-upgrade {
+    width: 30%;
+    padding-bottom: 30px;
+}
+
+.upgrade h2, .upgrade p {
+    color: #183244;
+}
+
+@media screen and (max-width:1420px) {
+    .sale {
+        font-size: 20pt;
+        transform: translateY(-30%);
+    }
+    #icon-how {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .p-velocity {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    #icon-how {
+        width: 30%;
+    }
+    .earn-points p {
+        transform: translateY(-40%)
+    }
+    .upgrade h2 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width:700px) {
+    nav ul li  {
+        display:block;
+    }
+
+}
+@media screen and (max-width:700px) {
+    .p-velocity {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #icon-upgrade{
+        width:40%;
+    }
+}
+@media screen and (max-width:600px) {
+    .sale {
+        font-size: 12pt;
+    }
+    #icon-how {
+        width: 40%;
+    }
+    .earn-points p {
+        transform: translateY(-20%)
+    }
+    .earn-points h2 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .upgrade h2 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #icon-upgrade{
+        width:50%;
+    }
+}
+
+.tandc p {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+nav ul li a {
+    font-size: 10pt;
+    color: black;
+    left: 0;
+    font-weight: 400;
+    padding-top: 18px;
+    padding-bottom: 27px;
+    color: white;
+    height:25px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.divBreak {
+    background-color: white;
+    height 200px;
+    width:100%;
+    display: block;
+}
+
+.names {
+
+    display: block;
+}
+
+.name-in {
+    width:80%;
+
+}
+
+#fbox1 {
+    width:50%;
+    float:left;
+    display: inline-block;
+}}
+
+.text-danger {
+    width:50%;
+    float:right;
+    display: inline-block;
+}
+
+#fbox2 {
+    width:50%;
+    float:left;
+    display: inline-block;
+}
+
+label {
+    margin-bottom: 3px;
+}
+
+h5 {
+    margin-bottom: 10px;
+}
+
+#fbox3 {
+    width:50%;
+    float:left;
+}
+
+#fbox4 {
+    width:50%;
+    display:inline-block;
 }

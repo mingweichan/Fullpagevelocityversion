@@ -11,23 +11,23 @@
     <link href="css/jquery.fullPage.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/new.css" rel="stylesheet">
-  
+
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <![endif]-->
-    
+
     <script src="js/jquery-2.1.4.js"></script>
 
 </head>
 
 <body>
-    
+
     <div class=".inner"></div>
     <header>
         <div class="header-top clearfix">
-            <h1 class="l-left"><a href="#firstSection">
-             </a><img id="topleftlogo" src="img/velocity%20logo%201%20white.png"></h1>
+            <h1 class="l-left navOpt" data-menuanchor="firstSection"><a href="#firstSection">
+                <img id="topleftlogo" src="img/velocity%20logo%201%20white.png"></a></h1>
             <a class="l-right toggle-menu" href="#">
                 <i></i>
                 <i></i>
@@ -78,6 +78,8 @@
             <h2>Velocity Frequent Flyer</h2>
 
             <p class="break"> ...........................................................................................................................................................</p>
+            <div class="divBreak"></div>
+            <p><a><span class="glyphicons glyphicons-plus">+</span>join now</a></p>
             <nav class="navbar navbar-default">
                 <div class="collapse scrollspy navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navvel">
@@ -151,7 +153,7 @@
 
         <!--HOW IT WORKS-->
         <section class="vertical-scrolling">
-            <img id="icon-how" src="img/earn%20points%20earn%20rewards-01.png">
+            <img id="icon-how" src="img/how%20does%20it%20work.png">
             <h2>so how does it work?</h2>
             <h3>1. Join Velocity</h3>
             <h3>2. Earn Points, Enjoy Rewards</h3>
@@ -163,16 +165,16 @@
         </section>
         <!--EARN POINTS-->
         <section class="vertical-scrolling earn-points">
-             <img id="icon-how" src="img/earn%20points%20earn%20rewards-01.png">
-                <h2>earn points, enjoy rewards</h2>
+            <img id="icon-how" src="img/earn%20points%20earn%20rewards-01.png">
+            <h2>earn points, enjoy rewards</h2>
             <div class="container p-velocity">
                 <p>As a Velocity member, you will earn Frequent Flyer Points when you fly with Virgin Australia and our world-class airline partners, and when you use our outstanding network of global program partners on the ground. When you are ready to redeem, you could use your Velocity Points to purchase flights, flight upgrades, car hire, accommodation and much more, plus hundreds of products, vouchers, everyday rewards and experiences from our Velocity Rewards Store.</p>
             </div>
         </section>
         <!--UPGRADE-->
         <section class="vertical-scrolling upgrade">
-            
-                <h2>upgrade your status, enjoy more benefits</h2>
+            <img id="icon-upgrade" src="img/upgrade%20your%20status.png">
+            <h2>upgrade your status, enjoy more benefits</h2>
             <div class="container p-velocity">
                 <p>In addition to earning Velocity Points, you will earn Status Credits when you fly with Virgin Australia and our airline partners to hundreds of destinations worldwide. Status Credits are used to determine your membership level in the Velocity program. Velocity has three levels of membership above entry level (Red): Silver, Gold and Platinum. Velocity rewards it's frequent flyers. The higher your level of membership, the greater the benefits, such as Points bonuses with many of our travel partners. Silver members can also enjoy Priority Check-in on international flights*, while Gold and Platinum members can experience lounge access and priority services when travelling, including Sydney Lounge Premium Entry and Premium Valet and Melbourne Premium Exit. Find out more about Status benefits.</p>
             </div>
@@ -197,9 +199,9 @@
         <section class="vertical-scrolling">
             <h2 id="fintro">join velocity today!</h2>
             <div class="containerform">
-                <form>
-<!--PERSONAL DETAILS-->
-                    <h4 id="fh4">MY PERSONAL DETAILS</h4>
+                <form action="#">
+                    <!--PERSONAL DETAILS-->
+                    <h4 class="fh4">MY PERSONAL DETAILS</h4>
                     <div class="form-group">
                         <label for="sel2">Title:</label>
                         <select class="form-control" id="sel1">
@@ -213,34 +215,36 @@
                         </select>
                     </div>
 
-                    <label for="fbox1">First Name</label>
-                    <div class="form-group" id=fbox1>
-                        <input type="text" class="form-control" placeholder="Enter first name" id="name" required data-validation-required-message="Please enter your first name.">
-                        <p class="help-block text-danger"></p>
-                    </div>
-                    <label for="fbox2">Last Name</label>
-                    <div class="form-group" id=fbox2>
-                        <input type="text" class="form-control" placeholder="Enter last name" id="name1" required data-validation-required-message="Please enter your last name.">
-                        <p class="help-block text-danger"></p>
-                    </div>
 
+                    <div class="form-group" id=fbox1>
+                        <label class="names" for="fbox1">First Name</label>
+                        <input type="text" class="form-control name-in" placeholder="Enter first name" id="name" required data-validation-required-message="Please enter your first name.">
+
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group" id=fbox2>
+                        <label class="names" for="fbox2">Last Name</label>
+                        <input type="text" class="form-control name-in" placeholder="Enter last name" id="name1" required data-validation-required-message="Please enter your last name.">
+                        <p class="help-block text-danger"></p>
+                    </div>
                     <div class="form-group">
                         <h5>First and Last Name must match passport.</h5>
-                        <label for="fbox3">Velocity Promotion Code</label>
+                        
                         <div class="form-group" id="fbox3">
+                            <label class="names" for="fbox3">Velocity Promotion Code</label>
                             <input type="text" class="form-control" placeholder="Enter code here" id="name2">
-
                         </div>
-                        <label for="fbox4">BP Temporary Card Number</label>
+                        
                         <div class="form-group" id="fbox4">
+                            <label class="names" for="fbox4">BP Temporary Card Number</label>
                             <input type="text" class="form-control" placeholder="Enter card number" id="name2">
 
                         </div>
 
                         <p class="help-block text-danger"></p>
                     </div>
-<!--CONTACT INFO-->
-                    <h2>MY CONTACT INFORMATION</h2>
+                    <!--CONTACT INFO-->
+                    <h4 class="fh4">MY CONTACT INFORMATION</h2>
 
                     <div class="form-group">
                         <label for="sel1">Country:</label>
@@ -322,7 +326,7 @@
                         <p class="help-block text-danger"></p>
                     </div>
 <!--SECURITY INFO-->
-                    <h2>MY SECURITY INFORMATION</h2>
+                    <h4 class="fh4">MY SECURITY INFORMATION</h2>
                     <label for="fbox12">Date of Birth</label>
                     <div class="form-group" id="fbox12">
                         <input type="date" class="form-control" id="exampleInputDOB1" placeholder="Date of Birth">
@@ -357,7 +361,16 @@
                         <p class="help-block text-danger"></p>
                     </div>
 
-                    <h2>Terms and Conditions</h2>
+                   <button type="submit" class="btn btn-xl">NEXT</button>
+
+                </form>
+
+
+            </div>
+        </section>
+        <section class="vertical-scrolling tandc">
+            <div class="horizontal-scrolling">
+                <h2>Terms and Conditions</h2>
                     <p>I have read and agree to be bound by the Terms & Conditions and declare that the details that I have provided in relation to this Velocity Membership application are true and correct. If the application is for membership of a person under 16 years of age, I declare that I am the parent or legal guardian of the applicant. I request to receive a Velocity Frequent Flyer membership card with Global Wallet® functionality if I am eligible, which can be used as a Visa Prepaid card* and I agree to receiving disclosures about the Global Wallet® online. The Product Disclosure Statement and Financial Services Guide for the Global Wallet is available online. Further information on how to activate the Global Wallet® feature will be sent to you with your card. By joining Velocity Frequent Flyer you consent to Velocity sending you a monthly E-Statement with your Points Balance update, Velocity Exclusives, Virgin Australia Updates, Travel Partner Offers, Other Partner Offers, Member Updates, Fuel Partner Offers and Market Research. You may unsubscribe from these communications at any time by either amending your My Preferences found in My Account or by clicking the unsubscribe link provided on the communications. * To use the Global Wallet® functionality on your Velocity membership card, the Global Wallet® must first be activated. Terms and conditions and fees and charges will apply to use of the Global Wallet®. Not all Velocity Frequent Flyer members are eligible to receive a membership card with Global Wallet functionality. If you are not eligible to receive a membership card with Global Wallet functionality, you will receive a standard Velocity Frequent Flyer membership card. You are able to opt out of receiving a membership card with Global Wallet® functionality at any time by visiting My Benefits in your Velocity Account, checking the opt out box and clicking submit. Velocity Rewards Pty Ltd ACN 116 089 448 acts as authorised representative of Rev Australia Pty Ltd ACN 117 378 953 AFSL 401610 as distributor of the Velocity Global Wallet prepaid Visa product. Rev Australia Pty Ltd manages the Velocity Global Wallet prepaid Visa product for Cuscal Limited ACN 087 822 455 AFSL 244116. Cuscal is the product issuer of the product. Any advice is general advice that does not take account of your objectives, financial situation or needs, so you should consider whether the product is suitable for you before acquiring or activating it. A Product Disclosure Statement (PDS) is available at www.velocityfrequentflyer.com/globalwallet. You should consider the PDS in making any decision about whether to acquire, activate or keep the Velocity Global Wallet prepaid Visa product. The product is available only to Australian resident Velocity Frequent Flyer members. We are collecting your personal information. Please read our Privacy Statement for Membership Join and Privacy Policy located on our website for information about how we will handle this information, our likely overseas disclosures and how you can access or correct your personal information or make a privacy complaint.</p>
 
 
@@ -369,23 +382,10 @@
                         <div id="success"></div>
                         <button type="submit" class="btn btn-xl">NEXT</button>
                     </div>
-
-                </form>
-
-
             </div>
         </section>
-        <section class="vertical-scrolling">
-            <div class="horizontal-scrolling">
-                <h2>fullPage.js</h2>
-                <h3>This is the fifth section and it contains the first slide (actually section == first slide)</h3>
-            </div>
-            <div class="horizontal-scrolling">
-                <h2>fullPage.js</h2>
-                <h3>This is the second slide</h3>
-                <p class="end">Thank you!</p>
-            </div>
-        </section>
+            
+                
     </div>
     <!-- js files -->
 

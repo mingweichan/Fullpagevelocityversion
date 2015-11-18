@@ -24,7 +24,7 @@ $(document).ready(function(){
     slidesNavigation: true,
     css3: true,
     controlArrows: false,
-    anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection'],
+    anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection','sixthSection', 'seventhSection', 'eighthSection'],
     menu: '#menu',
 
     afterLoad: function(anchorLink, index) {

@@ -207,6 +207,9 @@ html.fp-enabled,
 .fp-auto-height .fp-tableCell{
     height: auto !important;
 }
+section:nth-of-type(7) {
+    background: url('http://theguysociety.com/wp-content/uploads/2015/10/vacation_couple_1446143372.jpg') no-repeat center / cover;
+}
 section:nth-of-type(6) {
     background-color: #c4c9d3 !important;
 }
