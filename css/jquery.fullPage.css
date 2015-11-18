@@ -72,17 +72,18 @@ html.fp-enabled,
     -webkit-transform: translate3d(0,0,0);
     -ms-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+    
 }
 .fp-controlArrow.fp-prev {
-    left: 15px;
+    left: 40px;
     width: 0;
-    border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent rgba(255, 255, 255, 1) transparent transparent;
 }
 .fp-controlArrow.fp-next {
-    right: 15px;
-    border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+    right: 40px;
+    border-width: 15px 0 15px 15px;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 1);
 }
 .fp-scrollable {
     overflow: scroll;
@@ -209,8 +210,8 @@ html.fp-enabled,
 
 
 
-section:nth-of-type(2) {
-    background: url('https://unsplash.it/1910/1221?image=626') no-repeat center / cover;
+section:nth-of-type(3) {
+    background-color: rgb(255, 211, 211) !important;
 }
 section:nth-of-type(1) {
     background-color: rgb(255, 176, 176) !important;
