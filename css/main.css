@@ -198,7 +198,7 @@ nav {
   box-sizing: border-box;
 
 	position: fixed;
-    left:135px;
+    left:70px;
     right:70px;
   -webkit-transition: all .5s;
           transition: all .5s;
@@ -258,7 +258,7 @@ nav li:nth-child(even) a:hover {
 
 nav li.active a,
 body.fp-viewing-fifthSection-1 #menu li:last-child a {
-  background: #453659;
+  background: rgb(62, 82, 93);
 }
   
 
