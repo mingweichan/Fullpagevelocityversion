@@ -1,5 +1,7 @@
+
 $(document).ready(function(){
-  
+
+    
   // variables
   var $header_top = $('.header-top');
   var $nav = $('nav');
@@ -28,13 +30,13 @@ $(document).ready(function(){
     afterLoad: function(anchorLink, index) {
       $header_top.css('background', 'rgba(0, 47, 77, .3)');
       $nav.css('background', 'rgba(0, 47, 77, .25)');
-      if (index == 5) {
+      if (index == 2) {
           $('#fp-nav').hide();
         }
     },
 
     onLeave: function(index, nextIndex, direction) {
-      if(index == 5) {
+      if(index == 2) {
         $('#fp-nav').show();
       }
     },

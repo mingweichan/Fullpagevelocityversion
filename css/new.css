@@ -1,6 +1,5 @@
 section:nth-of-type(1) {
-    background-color:black;
-
+    background-color: black;
 }
 
 .top-head {
@@ -8,31 +7,40 @@ section:nth-of-type(1) {
 }
 
 .navbar {
-    height:100px;
-    width:100%;
+    height: 100px;
+    width: 100%;
     background-color: white;
     position: fixed;
 }
 
-@media screen and (max-width: 880px) {
-    
-    .hide {
-        width:100%;
-        left:0;
-        top:70px;
-    }
-
+#icon-how {
+    width: 20%;
+    padding-bottom: 30px;
 }
+.earn-points p {
+    transform: translateY(-100%)
+}
+
+@media screen and (max-width: 880px) {
+    .hide {
+        width: 100%;
+        left: 0;
+        top: 70px;
+    }
+}
+
 #middlelogo {
     margin-left: 45px;
     margin-bottom: 20px;
-    width:190px;
+    width: 190px;
 }
 
-strong, h2{
+strong,
+h2 {
     font-family: "Crimson Text";
     font-weight: 100;
 }
+
 .break {
     margin-top: 50px;
 }
@@ -51,7 +59,7 @@ strong, h2{
 }
 
 .clicknext2 {
-     background: url('http://i.imgur.com/tOgBFoj.jpg') no-repeat center / cover;
+    background: url('http://i.imgur.com/tOgBFoj.jpg') no-repeat center / cover;
 }
 
 h2 span {
@@ -64,18 +72,17 @@ h2 span {
     padding-top: 55px;
     padding-bottom: 10px;
     transform: translateY(-15%);
-
 }
 
 .button {
-    height:20em;
+    height: 20em;
     width: 50%;
     background-color: rgba(255, 255, 255, 0.88);
     margin: 0 auto;
     transform: translateY(20%);
-    color:black;
+    color: black;
     transition: all .5s;
-    padding:20px;
+    padding: 20px;
 }
 
 .button:hover {
@@ -84,18 +91,17 @@ h2 span {
 
 .activate {
     width: 30%;
-    height:10em;
+    height: 10em;
     opacity: 0;
-    background-color: rgba(255,255,255, 0.8);
-    margin:10px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px auto;
     display: block;
     transform: translateY(60%);
-    transition: all 1s; 
+    transition: all 1s;
 }
 
 .a:active > .activate {
-    opacity:1;
-
+    opacity: 1;
 }
 
 a {
@@ -103,13 +109,13 @@ a {
 }
 
 .button2 {
-    height:20em;
+    height: 20em;
     width: 50%;
     background-color: rgba(255, 255, 255, 0.88);
     margin: 0 auto;
     transform: translateY(-10%);
-    color:black;
-    transition: all .5s;  
+    color: black;
+    transition: all .5s;
 }
 
 .sale2 {
@@ -118,7 +124,6 @@ a {
     font-weight: 100;
     padding-top: 55px;
     transform: translateY(-15%)
-
 }
 
 .fifteenpercent {
@@ -126,7 +131,7 @@ a {
 }
 
 .button2:hover {
-     background-color: rgba(255, 237, 237, 0.82);
+    background-color: rgba(255, 237, 237, 0.82);
 }
 
 .clicknext3 {
@@ -134,23 +139,114 @@ a {
 }
 
 .nexttodots {
-    right:30px;
+    right: 30px;
     position: fixed;
     background-color: white;
     height: 100px;
     width: 10px;
-    
 }
 
-@media screen and (max-width:1420px){
-
+@media screen and (max-width:1420px) {
     .sale {
         font-size: 20pt;
         transform: translateY(-30%);
     }
+    #icon-how {
+        width: 30%;
+    }
 }
-@media screen and (max-width:600px){
 
+@media screen and (max-width:900px) {
+    .p-velocity {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    #icon-how {
+        width: 40%;
+    }
+    .earn-points p {
+        transform: translateY(-40%)
+    }
+}
+@media screen and (max-width:700px) {
+    .p-velocity {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width:600px) {
     .sale {
         font-size: 12pt;
     }
+    #icon-how {
+        width: 60%;
+    }
+    .earn-points p {
+        transform: translateY(-20%)
+    }
+    .earn-points h2 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .upgrade h2 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+body > .inner {
+    display: none;
+}
+
+body.pg-loaded > .inner {
+    display: block;
+}
+
+
+}
+#loader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.justified {
+    text-align: justify;
+    margin: 40px 100px;
+}
+.container p {
+    text-align: justify;
+}
+.earn-points h2,
+.earn-points p {
+    color: white;
+}
+
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+    background: #D50133;
+    width: 8px;
+    height: 8px;
+    margin: -4px 0 0 -4px;
+}
+      
+#fp-nav ul li a.active span, 
+.fp-slidesNav ul li a.active span, 
+#fp-nav ul li:hover a.active span, 
+.fp-slidesNav ul li:hover a.active span {
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    background: transparent;
+    box-sizing: border-box;
+    border: 1px solid #24221F;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
