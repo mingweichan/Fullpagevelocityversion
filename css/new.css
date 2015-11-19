@@ -28,10 +28,12 @@ section:nth-of-type(1) {
 
 #fampause {
     width: 10%;
+    padding-top: 20px;
 }
 
 #famtransfer {
     width: 10%;
+    padding-top: 20px;
 }
 
 .earn-points p {
@@ -706,4 +708,18 @@ h5 {
 .full {
     float: left;
     width: 100%;
+}
+.container img {
+    max-width: 150px;
+}
+
+.otherpage {
+    margin: 300px auto;
+    text-align: center;
+}
+.earn{
+    transition: all .5s;
+}
+.earn:hover {
+    color:#c9d5e2;
 }
