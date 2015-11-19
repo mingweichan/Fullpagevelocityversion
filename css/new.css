@@ -13,22 +13,28 @@ section:nth-of-type(1) {
     position: fixed;
 }
 
+#icon-question {
+    width: 10%;
+}
+
 #icon-how {
-    width: 5%;
+    width: 30%;
     padding-bottom: 30px;
 }
 
+#fampooling {
+        width: 10%;
+    }
+#fampause {
+        width: 10%;
+    }
+#famtransfer {
+        width: 10%;
+    }
 .earn-points p {
     transform: translateY(-100%)
 }
 
-@media screen and (max-width: 700px) {
-    .hide {
-        width: 100%;
-        left: 0px;
-        top: 70px;
-    }
-}
 
 #middlelogo {
     margin-left: 45px;
@@ -264,67 +270,13 @@ label {
 h5 {
     margin-bottom: 10px;
 }
-
-
-
-/*MEDIA QUERIES (NOTHING GOES BELOW)*/
-@media screen and (max-width:1420px) {
-    .sale {
-        font-size: 20pt;
-        transform: translateY(-30%);
-    }
-    #icon-how {
-        width: 20%;
-    }
+#fbox3 {
+    width:50%;
+    float:left;
 }
-@media screen and (max-width:900px) {
-    .p-velocity {
-        margin-right: 100px;
-        margin-left: 100px;
-    }
-    #icon-how {
-        width: 30%;
-    }
-    .earn-points p {
-        transform: translateY(-40%)
-    }
-    .upgrade h2 {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
 }
 
-@media screen and (max-width:700px) {
-    .p-velocity {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    #icon-upgrade {
-        width: 40%;
-    }
-}
-@media screen and (max-width:600px) {
-    .sale {
-        font-size: 12pt;
-    }
-    #icon-how {
-        width: 40%;
-    }
-    .earn-points p {
-        transform: translateY(-20%)
-    }
-    .earn-points h2 {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    .upgrade h2 {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    #icon-upgrade {
-        width: 50%;
-    }
-}
+
 .agree {
     margin-right: 10px;
     transform: translateY(20%);
@@ -334,10 +286,6 @@ h5 {
     margin-top: 30px;
 }
 
-.takeimg {
-    width:10%;
-    margin-top: 30px;
-}
 
 .joinbutton {
     text-decoration: none;
@@ -371,23 +319,57 @@ h5 {
     text-decoration: none;
     color: black;
 }
+
 /*MEDIA QUERIES (NOTHING GOES BELOW)*/
 @media screen and (max-width:1420px) {
+    h3 {
+        font-size: 20px;
+    }
     .sale {
         font-size: 20pt;
         transform: translateY(-30%);
     }
     #icon-how {
-        width: 20%;
+        width: 30%;
+    }
+    #icon-upgrade {
+        width: 30%;
+    }
+    #fampooling {
+        width: 15%;
+    }
+    #fampause {
+        width: 15%;
+    }
+    #famtransfer {
+        width: 15%;
     }
 }
 @media screen and (max-width:900px) {
+    h3 {
+        font-size: 20px;
+    }
     .p-velocity {
         margin-right: 100px;
         margin-left: 100px;
     }
+    #icon-question {
+        width: 20%;
+    }
     #icon-how {
+        width: 25%;
+    }
+    #icon-upgrade {
         width: 30%;
+    }
+    #fampooling {
+        width: 25%;
+    }
+    #fampause {
+        width: 25%;
+    }
+    #famtransfer {
+        width: 25%;
     }
     .earn-points p {
         transform: translateY(-40%)
@@ -396,6 +378,14 @@ h5 {
         margin-left: 50px;
         margin-right: 50px;
     }
+    .container {
+    margin-top: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
 }
 
 @media screen and (max-width:700px) {
@@ -403,13 +393,34 @@ h5 {
         margin-left: 50px;
         margin-right: 50px;
     }
+    #icon-question {
+        width: 20%;
+    }
+    #icon-how {
+        width: 30%;
+    }
     #icon-upgrade {
-        width: 40%;
+        width: 30%;
+    }
+    #fampooling {
+        width: 20%;
+    }
+    #fampause {
+        width: 20%;
+    }
+    #famtransfer {
+        width: 20%;
     }
 }
 @media screen and (max-width:600px) {
+    h3 {
+        font-size: 15px;
+    }
     .sale {
         font-size: 12pt;
+    }
+    #icon-question {
+        width: 20%;
     }
     #icon-how {
         width: 40%;
@@ -496,6 +507,19 @@ h5 {
 #fbox10 {
     z-index: 9;
 }
+    #fampooling {
+        width: 30%;
+    }
+    #fampause {
+        width: 30%;
+    }
+    #famtransfer {
+        width: 30%;
+    }
+    .container {
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
 
 #fbox11 {
     z-index: 9;

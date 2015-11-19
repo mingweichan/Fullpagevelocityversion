@@ -368,13 +368,12 @@ h3 {
 }
 
 .containerform {
-    margin-top: 80px;
     bottom:0;
     margin-left: 10%;
     text-align: left;
-    padding-left: 100px;
-    padding-top: 50px;
-    
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 600px;
     background-color: rgba(255, 255, 255, 0.77);
     overflow-y: auto;
@@ -382,7 +381,7 @@ h3 {
 }
 
 #fintro {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .fh4 {
