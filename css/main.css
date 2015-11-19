@@ -45,7 +45,7 @@
 .scroll-icon {
 	position: absolute;
  	left: 50%;
-  bottom: 30px;
+  bottom: 15px;
   padding: 0 10px;
   	-webkit-transform: translateX(-50%);
   	    -ms-transform: translateX(-50%);
@@ -327,7 +327,8 @@ h3 {
 
   
   .scroll-icon {
-    display: none;
+    display: block;
+
   }
 }
 

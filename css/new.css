@@ -14,17 +14,18 @@ section:nth-of-type(1) {
 }
 
 #icon-how {
-    width: 15%;
+    width: 5%;
     padding-bottom: 30px;
 }
+
 .earn-points p {
     transform: translateY(-100%)
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 700px) {
     .hide {
         width: 100%;
-        left: 0;
+        left: 0px;
         top: 70px;
     }
 }
@@ -51,7 +52,6 @@ h2 {
 
 #topleftlogo {
     margin-left: 10px;
-
 }
 
 .clicknext1 {
@@ -146,7 +146,6 @@ a {
     width: 10px;
 }
 
-
 body > .inner {
     display: none;
 }
@@ -179,18 +178,16 @@ body.pg-loaded > .inner {
 .earn-points p {
     color: white;
 }
-
-#fp-nav ul li a span, 
+#fp-nav ul li a span,
 .fp-slidesNav ul li a span {
     background: #D50133;
     width: 8px;
     height: 8px;
     margin: -4px 0 0 -4px;
 }
-      
-#fp-nav ul li a.active span, 
-.fp-slidesNav ul li a.active span, 
-#fp-nav ul li:hover a.active span, 
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span {
     width: 16px;
     height: 16px;
@@ -199,20 +196,83 @@ body.pg-loaded > .inner {
     box-sizing: border-box;
     border: 1px solid #24221F;
 }
-
 .form-control {
     margin-bottom: 10px;
 }
-
 #icon-upgrade {
     width: 30%;
     padding-bottom: 30px;
 }
-
-.upgrade h2, .upgrade p {
+.upgrade h2,
+.upgrade p {
     color: #183244;
 }
+.tandc p {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+p {
+    margin-top: 20px;
+}
+nav ul li a {
+    font-size: 10pt;
+    color: black;
+    left: 0;
+    font-weight: 400;
+    padding-top: 18px;
+    padding-bottom: 27px;
+    color: white;
+    height: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.divBreak {
+    background-color: white;
+    height 200px;
+    width: 100%;
+    display: block;
+}
+.names {
+    display: block;
+}
+.name-in {
+    width: 80%;
+}
+#fbox1 {
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
 
+}
+.text-danger {
+    width:50%;
+    float:right;
+    display: inline-block;
+}
+#fbox2 {
+    width:50%;
+    float:left;
+    display: inline-block;
+}
+label {
+    margin-bottom: 3px;
+}
+h5 {
+    margin-bottom: 10px;
+}
+#fbox3 {
+    width:50%;
+    float:left;
+}
+#fbox4 {
+    width:50%;
+    display:inline-block;
+}
+
+/*MEDIA QUERIES (NOTHING GOES BELOW)*/
 @media screen and (max-width:1420px) {
     .sale {
         font-size: 20pt;
@@ -222,7 +282,6 @@ body.pg-loaded > .inner {
         width: 20%;
     }
 }
-
 @media screen and (max-width:900px) {
     .p-velocity {
         margin-right: 100px;
@@ -239,19 +298,14 @@ body.pg-loaded > .inner {
         margin-right: 50px;
     }
 }
-@media screen and (max-width:700px) {
-    nav ul li  {
-        display:block;
-    }
 
-}
 @media screen and (max-width:700px) {
     .p-velocity {
         margin-left: 50px;
         margin-right: 50px;
     }
-    #icon-upgrade{
-        width:40%;
+    #icon-upgrade {
+        width: 40%;
     }
 }
 @media screen and (max-width:600px) {
@@ -272,84 +326,111 @@ body.pg-loaded > .inner {
         margin-left: 50px;
         margin-right: 50px;
     }
-    #icon-upgrade{
-        width:50%;
+    #icon-upgrade {
+        width: 50%;
+    }
+}
+.agree {
+    margin-right: 10px;
+    transform: translateY(20%);
+}
+
+.btn-xl {
+    margin-top: 30px;
+}
+
+.takeimg {
+    width:10%;
+    margin-top: 30px;
+}
+
+.joinbutton {
+    text-decoration: none;
+    color: black;
+    transition: all 1s;
+}
+.joinbutton:hover {
+    color: #d50133;
+}
+
+.joinbutton-div {
+
+    width:10%;
+    height:15px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.glyphicons-chevron-down {
+    font-size: 30pt;
+}
+
+.scrollArrow {
+    display: block;
+    width:10px;
+    margin:10px auto;
+}
+
+.scrollButton {
+    text-decoration: none;
+    color: black;
+}
+/*MEDIA QUERIES (NOTHING GOES BELOW)*/
+@media screen and (max-width:1420px) {
+    .sale {
+        font-size: 20pt;
+        transform: translateY(-30%);
+    }
+    #icon-how {
+        width: 20%;
+    }
+}
+@media screen and (max-width:900px) {
+    .p-velocity {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    #icon-how {
+        width: 30%;
+    }
+    .earn-points p {
+        transform: translateY(-40%)
+    }
+    .upgrade h2 {
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
 
-.tandc p {
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: justify;
-    margin-bottom: 20px;
+@media screen and (max-width:700px) {
+    .p-velocity {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #icon-upgrade {
+        width: 40%;
+    }
 }
-
-p {
-    margin-top: 20px;
-}
-
-nav ul li a {
-    font-size: 10pt;
-    color: black;
-    left: 0;
-    font-weight: 400;
-    padding-top: 18px;
-    padding-bottom: 27px;
-    color: white;
-    height:25px;
-    padding-right: 5px;
-    padding-left: 5px;
-}
-
-.divBreak {
-    background-color: white;
-    height 200px;
-    width:100%;
-    display: block;
-}
-
-.names {
-
-    display: block;
-}
-
-.name-in {
-    width:80%;
-
-}
-
-#fbox1 {
-    width:50%;
-    float:left;
-    display: inline-block;
-}}
-
-.text-danger {
-    width:50%;
-    float:right;
-    display: inline-block;
-}
-
-#fbox2 {
-    width:50%;
-    float:left;
-    display: inline-block;
-}
-
-label {
-    margin-bottom: 3px;
-}
-
-h5 {
-    margin-bottom: 10px;
-}
-
-#fbox3 {
-    width:50%;
-    float:left;
-}
-
-#fbox4 {
-    width:50%;
-    display:inline-block;
+@media screen and (max-width:600px) {
+    .sale {
+        font-size: 12pt;
+    }
+    #icon-how {
+        width: 40%;
+    }
+    .earn-points p {
+        transform: translateY(-20%)
+    }
+    .earn-points h2 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .upgrade h2 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #icon-upgrade {
+        width: 50%;
+    }
 }
