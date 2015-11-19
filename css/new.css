@@ -23,18 +23,20 @@ section:nth-of-type(1) {
 }
 
 #fampooling {
-        width: 10%;
-    }
+    width: 10%;
+}
+
 #fampause {
-        width: 10%;
-    }
+    width: 10%;
+}
+
 #famtransfer {
-        width: 10%;
-    }
+    width: 10%;
+}
+
 .earn-points p {
     transform: translateY(-100%)
 }
-
 
 #middlelogo {
     margin-left: 45px;
@@ -122,6 +124,7 @@ a {
     transform: translateY(-10%);
     color: black;
     transition: all .5s;
+    padding: 20px;
 }
 
 .sale2 {
@@ -160,8 +163,6 @@ body.pg-loaded > .inner {
     display: block;
 }
 
-
-
 #loader {
     position: fixed;
     top: 0;
@@ -173,17 +174,21 @@ body.pg-loaded > .inner {
     padding: 0;
     overflow: hidden;
 }
+
 .justified {
     text-align: justify;
     margin: 40px 100px;
 }
+
 .container p {
     text-align: justify;
 }
+
 .earn-points h2,
 .earn-points p {
     color: white;
 }
+
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
     background: #D50133;
@@ -191,6 +196,7 @@ body.pg-loaded > .inner {
     height: 8px;
     margin: -4px 0 0 -4px;
 }
+
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li a.active span,
 #fp-nav ul li:hover a.active span,
@@ -202,26 +208,32 @@ body.pg-loaded > .inner {
     box-sizing: border-box;
     border: 1px solid #24221F;
 }
+
 .form-control {
     margin-bottom: 10px;
 }
+
 #icon-upgrade {
     width: 30%;
     padding-bottom: 30px;
 }
+
 .upgrade h2,
 .upgrade p {
     color: #183244;
 }
+
 .tandc p {
     margin-left: 100px;
     margin-right: 100px;
     text-align: justify;
     margin-bottom: 20px;
 }
+
 p {
     margin-top: 20px;
 }
+
 nav ul li a {
     font-size: 10pt;
     color: black;
@@ -234,48 +246,52 @@ nav ul li a {
     padding-right: 5px;
     padding-left: 5px;
 }
+
 .divBreak {
     background-color: white;
     height: 200px;
     width: 100%;
     display: none;
 }
+
 .names {
     display: block;
 }
-.name-in {
 
-    width: calc(100% - 3em);
+.name-in {
+    width: 100%;
 }
+
 #fbox1 {
     width: 50%;
     float: left;
     display: inline-block;
 }
 
-
 .text-danger {
-    width:50%;
-    float:right;
+    width: 50%;
+    float: right;
     display: inline-block;
 }
+
 #fbox2 {
-    width:50%;
-    float:left;
+    width: 50%;
+    float: left;
     display: inline-block;
 }
+
 label {
     margin-bottom: 3px;
 }
+
 h5 {
     margin-bottom: 10px;
 }
+
 #fbox3 {
-    width:50%;
-    float:left;
+    width: 50%;
+    float: left;
 }
-
-
 
 .agree {
     margin-right: 10px;
@@ -283,23 +299,22 @@ h5 {
 }
 
 .btn-xl {
-    margin-top: 30px;
+    margin-bottom: 50px;
 }
-
 
 .joinbutton {
     text-decoration: none;
     color: black;
     transition: all 1s;
 }
+
 .joinbutton:hover {
     color: #d50133;
 }
 
 .joinbutton-div {
-
-    width:10%;
-    height:15px;
+    width: 10%;
+    height: 15px;
     margin: 0 auto;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -311,8 +326,8 @@ h5 {
 
 .scrollArrow {
     display: block;
-    width:10px;
-    margin:10px auto;
+    width: 10px;
+    margin: 10px auto;
 }
 
 .scrollButton {
@@ -320,48 +335,42 @@ h5 {
     color: black;
 }
 
-
 .half-form1 {
-    width:100%;
+    width: 100%;
     float: left;
 }
 
 .half-form-right {
-    width:25%;
-    float:left;
+    width: 25%;
+    float: left;
 }
 
 .half-form {
-    width:50%;
-    float:left;
+    width: 50%;
+    float: left;
 }
 
 .help-block {
     width: 100%;
 }
 
-
-
 .address {
-    width: calc(100% - 3em);
+    width: 100%;
 }
 
-
-
 .country {
-    width: 130px;
+    width: calc(100% - 1em);
 }
 
 .quarter {
-    width:25%;
+    width: 25%;
     float: left;
-
 }
 
 .broken {
     display: block;
-    width:100%;
-    clear:both;
+    width: 100%;
+    clear: both;
     margin-top: 20px;
 }
 
@@ -370,17 +379,16 @@ h5 {
 }
 
 #breakh4 {
-    clear:both;
+    clear: both;
     margin-top: 0px;
 }
 
 .smallheight {
-    height:5px;
+    height: 5px;
 }
 
 .translate {
     z-index: 2;
-
 }
 
 #fbox10 {
@@ -388,118 +396,242 @@ h5 {
 }
 
 .displaynone {
-    opacity:0;
-    transition: all 1s;
-}
-.displayfun {
-    opacity:1 !important;
+    opacity: 0;
     transition: all 1s;
 }
 
-    }
-    .container {
+.displayfun {
+    opacity: 1 !important;
+    transition: all 1s;
+}
+
+
+}
+.container {
     margin-top: 100px;
     margin-right: 50px;
     margin-left: 50px;
 }
-
 #fbox11 {
     z-index: 9;
 }
-
 .half-form-right1 {
-    width:50%;
-    float:left;
+    width: 50%;
+    float: left;
+}
+.tandc-form {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.thanks {
+    opacity: 0;
+    text-align: center;
+    position: absolute;
+    left: 43%;
+    right: 45%;
+    top: 45%;
+    font-size: 15pt;
+    background-color: #fdebee;
+}
+.tandc p:last-child {
+    text-align: center;
+}
+.middle {
+    width: 60%;
+    height: 90%;
+    position: absolute;
+    border-left: 1px dashed black;
+    z-index: 99;
+    right: 0;
+    top: 5%;
+    bottom: 5%;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#wrapper {
+    min-height: 100%;
+    background-color: black;
+    position: absolute;
+}
+#sd {
+    padding-right: 10px;
+}
+.btn {}
+.security {
+    margin-top: 40px;
+}
+.tccontainer ul {
+    font-size: 8pt;
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    bottom: 15px;
+}
+.bottomthing {
+    text-decoration: none;
+    color: black;
+    padding: .2em 1em;
+}
+.tccontainer ul li {
+    display: inline;
+}
+.bottomthing:hover {
+    color: red;
 }
 
 /*MEDIA QUERIES (NOTHING GOES BELOW)*/
+@media screen and (max-width:1600px) {
+    .thanks {
+        width: 200px;
+    }
+}
 @media screen and (max-width:1420px) {
     h3 {
         font-size: 20px;
     }
+    
     .sale {
         font-size: 20pt;
         transform: translateY(-30%);
     }
+    
     #icon-how {
         width: 30%;
     }
+    
     #icon-upgrade {
         width: 30%;
     }
+    
     #fampooling {
         width: 15%;
     }
+    
     #fampause {
         width: 15%;
     }
+    
     #famtransfer {
         width: 15%;
+    }
+    
+    .thanks {
+        width: 200px;
     }
 }
 @media screen and (max-width:900px) {
     h3 {
         font-size: 20px;
     }
+    
     .p-velocity {
         margin-right: 100px;
         margin-left: 100px;
     }
+    
     #icon-question {
         width: 20%;
     }
+    
     #icon-how {
         width: 25%;
     }
+    
     #icon-upgrade {
         width: 30%;
     }
+    
     #fampooling {
         width: 25%;
     }
+    
     #fampause {
         width: 25%;
     }
+    
     #famtransfer {
         width: 25%;
     }
+    
     .earn-points p {
         transform: translateY(-40%)
     }
+    
     .upgrade h2 {
         margin-left: 50px;
         margin-right: 50px;
     }
+    
     .container {
-    margin-top: 100px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 100px;
-    margin-left: 100px;
-
+        margin-top: 100px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    
+    .sale2 {
+        font-size: 25pt;
+    }
+    
+    .fifteenpercent {
+        transform: translateY(-50%);
     }
 }
-
+@media screen and (max-width:850px) {
+    .containerform {
+        width: 350px;
+    }
+    
+    .country {
+        width: 80px;
+    }
+    
+    .state {
+        width: 100%;
+    }
+    
+    #fbox2 {
+        width: 45%;
+    }
+    
+    #fintro {
+        visibility: hidden;
+    }
+}
 @media screen and (max-width:700px) {
     .p-velocity {
         margin-left: 50px;
         margin-right: 50px;
     }
+    
     #icon-question {
         width: 20%;
     }
+    
     #icon-how {
         width: 30%;
     }
+    
     #icon-upgrade {
         width: 30%;
     }
+    
     #fampooling {
         width: 20%;
     }
+    
     #fampause {
         width: 20%;
     }
+    
     #famtransfer {
         width: 20%;
     }
@@ -508,76 +640,70 @@ h5 {
     h3 {
         font-size: 15px;
     }
+    
     .sale {
         font-size: 12pt;
     }
+    
     #icon-question {
         width: 20%;
     }
+    
     #icon-how {
         width: 40%;
     }
+    
     .earn-points p {
         transform: translateY(-20%)
     }
+    
     .earn-points h2 {
         margin-left: 50px;
         margin-right: 50px;
     }
+    
     .upgrade h2 {
         margin-left: 50px;
         margin-right: 50px;
     }
+    
     #icon-upgrade {
         width: 50%;
     }
-}
-
-
-.tandc-form {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-
-}
-
-.thanks {
-    opacity:0;
-    text-align: center;
-    position: absolute;
-    left:43%;
-    right:45%;
-    top:45%;
-    font-size: 15pt;
-    background-color: #ffedf0;
-}
-
-.tandc p:last-child {
-    text-align: center;
-}
-
-.middle {
-    width:133px;
-    height: 120px;
-    position: absolute;
-    border-left: 1px dashed black;
-    z-index: 99;
-    right: 0;
-    top: 5px;
-    bottom: 5px;
-  
-
     
+    .thanks {
+        left: 20%;
+    }
     
+    .containerform {
+        width: 350px;
+    }
+    
+    .country {
+        width: 80px;
+    }
+    
+    #fbox2 {
+        width: 50%;
+    }
+    
+    #fintro {
+        visibility: hidden;
+    }
 }
-
-.image {
+.tccontainer {
+    transform: translateY(2000%);
+}
+.name-in1 {
+    width: calc(100% - 1em)
+}
+.secq {
     width: 100%;
-    height:100%;
-    position: absolute;
 }
-
-.tandc {
-    background-image: url(http://eastsbeach.com.au/assets/Uploads/_resampled/SetWidth2000-Kiama-Events-Easts-Beach-PB.jpg) no-repeat center / cover;
+.checkb {
+    margin-right: 5px;
+}
+.full {
+    float: left;
+    width: 100%;
 }
