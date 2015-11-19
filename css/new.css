@@ -238,7 +238,8 @@ nav ul li a {
     display: block;
 }
 .name-in {
-    width: 80%;
+
+    width:calc(100% - 3em);
 }
 #fbox1 {
     width: 50%;
@@ -263,14 +264,8 @@ label {
 h5 {
     margin-bottom: 10px;
 }
-#fbox3 {
-    width:50%;
-    float:left;
-}
-#fbox4 {
-    width:50%;
-    display:inline-block;
-}
+
+
 
 /*MEDIA QUERIES (NOTHING GOES BELOW)*/
 @media screen and (max-width:1420px) {
@@ -433,4 +428,80 @@ h5 {
     #icon-upgrade {
         width: 50%;
     }
+}
+
+
+.half-form1 {
+    width:100%;
+    float: left;
+}
+
+.half-form-right {
+    width:25%;
+    float:left;
+}
+
+.half-form {
+    width:50%;
+    float:left;
+}
+
+.help-block {
+    width: 100%;
+}
+
+
+
+.address {
+    width: calc(100% - 3em);
+}
+
+
+
+.country {
+    width: 130px;
+}
+
+.quarter {
+    width:25%;
+    float: left;
+    transform: translateY(-28%);
+}
+
+.broken {
+    display: block;
+    width:100%;
+    clear:both;
+    margin-top: 20px;
+}
+
+.checkbox {
+    margin-bottom: 20px;
+}
+
+#breakh4 {
+    clear:both;
+    margin-top: 0px;
+}
+
+.smallheight {
+    height:5px;
+}
+
+.translate {
+    z-index: 2;
+
+}
+
+#fbox10 {
+    z-index: 9;
+}
+
+#fbox11 {
+    z-index: 9;
+}
+
+.half-form-right1 {
+    width:50%;
+    float:left;
 }

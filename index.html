@@ -238,12 +238,12 @@
                     <div class="form-group">
                         <h5>First and Last Name must match passport.</h5>
                         
-                        <div class="form-group" id="fbox3">
+                        <div class="form-group half-form" id="fbox3">
                             <label class="names" for="fbox3">Velocity Promotion Code</label>
                             <input type="text" class="form-control" placeholder="Enter code here" id="name2">
                         </div>
                         
-                        <div class="form-group" id="fbox4">
+                        <div class="form-group half-form" id="fbox4">
                             <label class="names" for="fbox4">BP Temporary Card Number</label>
                             <input type="text" class="form-control" placeholder="Enter card number" id="name2">
 
@@ -254,9 +254,29 @@
                     <!--CONTACT INFO-->
                     <h4 class="fh4">MY CONTACT INFORMATION</h2>
 
-                    <div class="form-group">
-                        <label for="sel1">Country:</label>
-                        <select class="form-control" id="sel2">
+    
+
+                    <label for="fbox5">Address Line 1</label>
+                    <div class="form-group" id="fbox5">
+                        <input type="text" class="form-control address" placeholder="Enter address" id="address1" required data-validation-required-message="Please enter your address.">
+                        <p class="help-block text-danger"></p>
+                    </div>
+
+                    <label for="fbox6">Address Line 2</label>
+                    <div class="form-group" id="fbox6">
+                        <input type="text" class="form-control address" placeholder="Enter address" id="address2" required data-validation-required-message="Please enter your address.">
+                        <p class="help-block text-danger"></p>
+                    </div>
+
+                    
+                    <div class="form-group half-form" id="fbox7">
+                        <label class="names" for="fbox7">Suburb/City</label>
+                        <input type="text" class="form-control" placeholder="Enter suburb" id="suburb" required data-validation-required-message="Please enter your surburb/city.">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                     <div class="form-group half-form-right">
+                        <label class="names" for="sel1">Country:</label>
+                        <select class="form-control country" id="sel2">
                             <option>Select Country</option>
                             <option>Australia</option>
                             <option>Christmas Island</option>
@@ -270,28 +290,12 @@
                             <option>Tonga</option>
                             <option>Vanuatu</option>
                         </select>
+                         <p class="help-block text-danger"></p>
                     </div>
-
-                    <label for="fbox5">Address Line 1</label>
-                    <div class="form-group" id="fbox5">
-                        <input type="text" class="form-control" placeholder="Enter address" id="address1" required data-validation-required-message="Please enter your address.">
-                        <p class="help-block text-danger"></p>
-                    </div>
-
-                    <label for="fbox6">Address Line 2</label>
-                    <div class="form-group" id="fbox6">
-                        <input type="text" class="form-control" placeholder="Enter address" id="address2" required data-validation-required-message="Please enter your address.">
-                        <p class="help-block text-danger"></p>
-                    </div>
-
-                    <label for="fbox7">Suburb/City</label>
-                    <div class="form-group" id="fbox7">
-                        <input type="text" class="form-control" placeholder="Enter suburb" id="suburb" required data-validation-required-message="Please enter your surburb/city.">
-                        <p class="help-block text-danger"></p>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="sel3">State:</label>
+                    <br>
+                     
+                    <div class="form-group quarter">
+                        <label class="names" for="sel3">State:</label>
                         <select class="form-control" id="sel3">
                             <option>Select State</option>
                             <option>ACT</option>
@@ -305,47 +309,54 @@
                         </select>
                     </div>
 
-                    <label for="fbox8">Postcode</label>
-                    <div class="form-group" id="fbox8">
+                    <br>
+                   
+                    <div class="form-group half-form" id="fbox8">
+                        <label class="names post" for="fbox8">Postcode</label>
                         <input type="text" class="form-control" placeholder="Enter postcode" id="postcode" required data-validation-required-message="Please enter your postcode.">
                         <p class="help-block text-danger"></p>
                     </div>
 
-                    <label for="fbox9">Mobile Number</label>
-                    <div class="form-group" id="fbox9">
+                    
+                    <div class="form-group half-form-right" id="fbox9">
+                        <label class="names" for="fbox9">Mobile Number</label>
                         <input type="text" class="form-control" placeholder="Enter contact number" id="mobile" required data-validation-required-message="You must provide at least one phone number.">
                         <p class="help-block text-danger"></p>
                     </div>
-
-                    <div class="checkbox">
+                   <br>
+                    <div class="checkbox half-form">
                         <label>
                             <input type="checkbox" value="">Yes, I'd like to receive Velocity special offers via SMS/MMS</label>
                     </div>
+                    <div class="broken">
+                    
 
-                    <label for="fbox10">Email Address</label>
-                    <div class="form-group" id="fbox10">
+                   
+                    <div class="form-group half-form" id="fbox10">
+                        <label class="names" for="fbox10">Email Address</label>
                         <input type="email" class="form-control" placeholder="Enter email address" id="email" required data-validation-required-message="You must provide your email address">
-                        <p class="help-block text-danger"></p>
+                        <p class="help-block text-danger smallheight"></p>
                     </div>
-
-                    <label for="fbox11">Confirm Email Address</label>
-                    <div class="form-group" id="fbox11">
-                        <input type="email" class="form-control" placeholder="Re-enter email address" id="email" required data-validation-required-message="You must provide your email address">
-                        <p class="help-block text-danger"></p>
+                    <div class="form-group half-form-right" id="fbox11">
+                    <label class="names" for="fbox11">Confirm Email Address</label>
+                    <input type="email" class="form-control" placeholder="Re-enter email address" id="email" required data-validation-required-message="You must provide your email address">
+                    <p class="help-block text-danger smallheight"></p>
                     </div>
-<!--SECURITY INFO-->
-                    <h4 class="fh4">MY SECURITY INFORMATION</h2>
+                    </div>
+                    <br>
+<!--SECURITY INFO--><div class="translate">
+                    <h4 class="fh4" id="breakh4">MY SECURITY INFORMATION</h2>
                     <label for="fbox12">Date of Birth</label>
                     <div class="form-group" id="fbox12">
                         <input type="date" class="form-control" id="exampleInputDOB1" placeholder="Date of Birth">
                     </div>
 
-                    <div class="form-group has-feedback has-warning">
-                        <label for="password">Password</label>
+                    <div class="form-group has-feedback has-warning half-form">
+                        <label class="names" for="password">Password</label>
                         <input type="password" class="form-control"><span class="glyphicon glyphicon-remove form-control-feedback"></span>
                     </div>
-                    <div class="form-group has-feedback has-warning">
-                        <label for="password">Confirm Password</label>
+                    <div class="form-group has-feedback has-warning half-form-right1">
+                        <label class="names" for="password">Confirm Password</label>
                         <input type="password" class="form-control"><span class="glyphicon glyphicon-remove form-control-feedback"></span>
                     </div>
 
@@ -370,7 +381,7 @@
                     </div>
 
                    <button type="submit" class="btn btn-xl">NEXT</button>
-
+                    </div>
                 </form>
 
 

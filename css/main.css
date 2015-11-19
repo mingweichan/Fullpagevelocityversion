@@ -377,7 +377,7 @@ h3 {
     
     width: 600px;
     background-color: rgba(255, 255, 255, 0.77);
-    
+    overflow-y: auto;
     
 }
 
