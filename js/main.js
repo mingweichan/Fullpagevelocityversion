@@ -1,6 +1,12 @@
 
 $(document).ready(function(){
-
+    
+    $(".wtf").click(function(){
+        $(".tandc-form").addClass('displaynone',{duration:1000});     
+});
+    $(".wtf").click(function(){
+        $(".thanks").addClass('displayfun',{duration:1000});     
+});
     
   // variables
   var $header_top = $('.header-top');
@@ -67,4 +73,7 @@ $(document).ready(function(){
       }
     } 
   }); 
+
+
 });
+

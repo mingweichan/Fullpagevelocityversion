@@ -161,7 +161,7 @@ body.pg-loaded > .inner {
 }
 
 
-}
+
 #loader {
     position: fixed;
     top: 0;
@@ -236,16 +236,16 @@ nav ul li a {
 }
 .divBreak {
     background-color: white;
-    height 200px;
+    height: 200px;
     width: 100%;
-    display: block;
+    display: none;
 }
 .names {
     display: block;
 }
 .name-in {
 
-    width:calc(100% - 3em);
+    width: calc(100% - 3em);
 }
 #fbox1 {
     width: 50%;
@@ -253,7 +253,7 @@ nav ul li a {
     display: inline-block;
 }
 
-}
+
 .text-danger {
     width:50%;
     float:right;
@@ -274,7 +274,7 @@ h5 {
     width:50%;
     float:left;
 }
-}
+
 
 
 .agree {
@@ -318,6 +318,98 @@ h5 {
 .scrollButton {
     text-decoration: none;
     color: black;
+}
+
+
+.half-form1 {
+    width:100%;
+    float: left;
+}
+
+.half-form-right {
+    width:25%;
+    float:left;
+}
+
+.half-form {
+    width:50%;
+    float:left;
+}
+
+.help-block {
+    width: 100%;
+}
+
+
+
+.address {
+    width: calc(100% - 3em);
+}
+
+
+
+.country {
+    width: 130px;
+}
+
+.quarter {
+    width:25%;
+    float: left;
+
+}
+
+.broken {
+    display: block;
+    width:100%;
+    clear:both;
+    margin-top: 20px;
+}
+
+.checkbox {
+    margin-bottom: 20px;
+}
+
+#breakh4 {
+    clear:both;
+    margin-top: 0px;
+}
+
+.smallheight {
+    height:5px;
+}
+
+.translate {
+    z-index: 2;
+
+}
+
+#fbox10 {
+    z-index: 9;
+}
+
+.displaynone {
+    opacity:0;
+    transition: all 1s;
+}
+.displayfun {
+    opacity:1 !important;
+    transition: all 1s;
+}
+
+    }
+    .container {
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#fbox11 {
+    z-index: 9;
+}
+
+.half-form-right1 {
+    width:50%;
+    float:left;
 }
 
 /*MEDIA QUERIES (NOTHING GOES BELOW)*/
@@ -385,7 +477,7 @@ h5 {
     margin-right: 100px;
     margin-left: 100px;
 
-}
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -442,90 +534,50 @@ h5 {
 }
 
 
-.half-form1 {
-    width:100%;
-    float: left;
+.tandc-form {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+
 }
 
-.half-form-right {
-    width:25%;
-    float:left;
+.thanks {
+    opacity:0;
+    text-align: center;
+    position: absolute;
+    left:43%;
+    right:45%;
+    top:45%;
+    font-size: 15pt;
+    background-color: #ffedf0;
 }
 
-.half-form {
-    width:50%;
-    float:left;
+.tandc p:last-child {
+    text-align: center;
 }
 
-.help-block {
+.middle {
+    width:133px;
+    height: 120px;
+    position: absolute;
+    border-left: 1px dashed black;
+    z-index: 99;
+    right: 0;
+    top: 5px;
+    bottom: 5px;
+  
+
+    
+    
+}
+
+.image {
     width: 100%;
+    height:100%;
+    position: absolute;
 }
 
-
-
-.address {
-    width: calc(100% - 3em);
-}
-
-
-
-.country {
-    width: 130px;
-}
-
-.quarter {
-    width:25%;
-    float: left;
-    transform: translateY(-28%);
-}
-
-.broken {
-    display: block;
-    width:100%;
-    clear:both;
-    margin-top: 20px;
-}
-
-.checkbox {
-    margin-bottom: 20px;
-}
-
-#breakh4 {
-    clear:both;
-    margin-top: 0px;
-}
-
-.smallheight {
-    height:5px;
-}
-
-.translate {
-    z-index: 2;
-
-}
-
-#fbox10 {
-    z-index: 9;
-}
-    #fampooling {
-        width: 30%;
-    }
-    #fampause {
-        width: 30%;
-    }
-    #famtransfer {
-        width: 30%;
-    }
-    .container {
-    margin-top: 100px;
-    margin-right: 50px;
-    margin-left: 50px;
-
-#fbox11 {
-    z-index: 9;
-}
-
-.half-form-right1 {
-    width:50%;
-    float:left;
+.tandc {
+    background-image: url(http://eastsbeach.com.au/assets/Uploads/_resampled/SetWidth2000-Kiama-Events-Easts-Beach-PB.jpg) no-repeat center / cover;
 }
